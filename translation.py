@@ -154,7 +154,7 @@ USERNAME_TEXT = """**Hello Harman, I am shortnerfly.com, Bulk Link Converter Bot
 **🌟 Type** /channel (channel link or username)
 
 **example:**
-/channel @shortnerfly
+/channel @vikfy
 Or
 /channel https://t.me/shortnerfly
 
