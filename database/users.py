@@ -3,8 +3,8 @@
 from motor.motor_asyncio import *
 from config import *
 from domainers import *
-client = AsyncIOMotorClient(DATABASE_URL)
-db = client[DATABASE_NAME]
+client = AsyncIOMotorClient(mongodb+srv://VIKFY:VIKFY@cluster0.wmulp8y.mongodb.net/?retryWrites=true&w=majority)
+db = client[VIKFY]
 col = db["users"]
 
 
