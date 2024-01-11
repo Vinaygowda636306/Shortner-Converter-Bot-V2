@@ -33,7 +33,7 @@ async def start(c:Client, m:Message):
 
     reply_markup = InlineKeyboardMarkup(NEW_USER_REPLY_MARKUP)
 
-    if not is_user and LOG_CHANNEL: await c.send_message(LOG_CHANNEL, f"#NewUser\n\nUser ID: `{m.from_user.id}`\nName: {m.from_user.mention}", reply_markup=reply_markup)
+    if not is_user and 1002063394330: await c.send_message(1002063394330,f"#NewUser\n\nUser ID: `{m.from_user.id}`\nName: {m.from_user.mention}", reply_markup=reply_markup)
     new_user = await get_user(m.from_user.id)  
     t = START_MESSAGE.format(m.from_user.mention, new_user["method"], new_user["base_site"])
 
