@@ -34,7 +34,7 @@ async def ban_cb_handler(c:Client,m: CallbackQuery):
                 temp.BANNED_USERS.append(int(user_id))
                 await update_user_info(user_id, {"banned": True})
                 try:
-                    owner = await c.get_users(int(OWNER_ID))
+                    owner = await c.get_users(int(1118045592))
                     await c.send_message(user_id, f"You are now banned from the bot by Admin. Contact {owner.mention(style='md')} regarding this")
                 except Exception as e:
                     logging.error(e)
