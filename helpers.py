@@ -34,7 +34,7 @@ class AsyncIter:
 
 class Helpers:
     def __init__(self):
-        self.username = temp.BOT_USERNAME
+        self.username = temp.vikfy_shortner_bot
 
     @property
     async def user_method(self):
