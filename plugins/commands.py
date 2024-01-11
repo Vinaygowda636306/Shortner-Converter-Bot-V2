@@ -45,8 +45,8 @@ async def start(c:Client, m:Message):
 @Client.on_message(filters.command('help') & filters.private)
 async def help_command(c, m: Message):
     s = HELP_MESSAGE.format(
-                firstname=temp.FIRST_NAME,
-                username=temp.BOT_USERNAME)
+                firstname=temp.vikfy,
+                username=temp.Vikfy_Shortner_Bot)
 
     if WELCOME_IMAGE:
         return await m.reply_photo(photo=WELCOME_IMAGE, caption=s, reply_markup=HELP_REPLY_MARKUP)
