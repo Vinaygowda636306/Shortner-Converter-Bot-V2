@@ -39,4 +39,4 @@ class Database:
         return await self.stats.update_one(myquery, newvalues)
 
 
-db = Database(DATABASE_URL, DATABASE_NAME)
+db = Database(mongodb+srv://VIKFY:VIKFY@cluster0.wmulp8y.mongodb.net/?retryWrites=true&w=majority,VIKFY)
