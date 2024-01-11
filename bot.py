@@ -35,9 +35,9 @@ if __name__ == "__main__" :
     )
     dkbotz = Client(
         "Mdisk-Pro",
-        bot_token=BOT_TOKEN,
-        api_id=API_ID,
-        api_hash=API_HASH,
+        bot_token=6791456280:AAFNmdzA8XwO_FCehG3y_PghIVQKc2gCvgM,
+        api_id=27143201,
+        api_hash=553091f2b29f1c827fb4fca91c49b313,
         plugins=plugins
     )
     
